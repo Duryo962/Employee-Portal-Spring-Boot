@@ -1,0 +1,25 @@
+server:
+  port: 9000
+ 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/employeeportal_database
+    username: duryodhana
+    password: sarasu10
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    username: duryodhanakaragana9@gmail.com
+    password: zwie usyu xuuz kmsv
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+      
+  
